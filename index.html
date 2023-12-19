@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My first website</title>
+
+</head>
+<body style="background-color:rgb(55, 219, 214) " >
+    <a href = "https://en.wikipedia.org/wiki/Oggy_and_the_Cockroaches" target="_blank" title="this is the wikipidia page for oggy">
+    <img src ="/images/Oggy.png" height = 150 width = 150 alt = "this is a pic of oggy" title = "if you wanna know more about oggy the press on the picture">
+    </a>
+    <h1 style="color: red">If you wanna here the sound track of oggy then press here at the play pause button</h1>
+    <audio controls loop muted >
+        <source src ="musics/Oggy-and-the-Cockroaches-Theme-Song.mp3">
+
+    </audio>
+    <h2><b>Now</b> <sup>let's</sup> <sub>play</sub> some vedio about <ins><mark>oggy👀</mark></ins></h2>
+    <video controls muted loop>
+
+        <source src ="/videos/oggy video.mp4">      
+    </video>
+    <h2>Now let's talk about the characters of thr cartoon series named <i>Oggy.</i></h2> 
+    <h4>And for this we would need a list.</h4>  
+    <!--there are several kinds of list in the html system.but the main three list fanctions are (1)unordered list (2)ordered list (3)discription list-->
+    <h1>All the characters of <ins>Oggy</ins></h1><h6><i><mark>(side note)</mark>here we wll be practising the unordered list.... </i></h6>
+    <h3>The main characters.<h6><mark>it is an unordered list</mark></h6></h3>
+    <ul>
+        <li>Oggy</li>
+        <li>Jack</li>
+        <li>And the three cocroaches</li>
+        <h4>The name of them are:</h4>
+        <ol type="i"><!--this a nested list of ordered list inside the unordered list-->
+            <li>Jhaplu</li>
+            <li>Paplu</li>
+            <li>Taplu</li>
+        </ol>    
+    </ul>
+    <ol type="1"> <!--here the option type helps us to add what kind attribute we would like to add infront of our information-->
+       <h3>Some more info:</h3>
+       <h6><mark><ins>practising ordered list</ins></mark></h6>
+       <h4>There are some side characters:</h4>
+        <li><b><p>BOB</p></b></li>
+        <dd><i>It is actually a dog character.</i></dd>
+        <li>Olivia</li>
+        <dd>It a character of a girl cat</dd>
+    </ol>
+    <h4><div style="background-color: bisque;">Description list.</h4><!--to use the discription list we have to use the dl tags-->
+    <dl><!--there are two thing that we can do here..add a main point and it's discription.THE codes for that are <dt>term</dt> and <dd>defination</dd>-->
+        <dt><ins>The concept of the cartoon:</ins></dt>
+        <dd style="background-color: rgba(0, 0, 0, 0.128);color: white">It is a French animated television series created by Jean-Yves Raimbaud for Gaumont Multimedia and Xilam Animation.<div style="background-color: black; color:yellow">The series chronicles the exploits and adventures of Oggy, a blue cat whose life is constantly interrupted by three cockroaches – Dee Dee, Marky, and Joey respectively – who love to cause mischief within his home</div>. The show employs silent comedy: characters either do not speak or use unintelligible vocalizations and gestures.
+            <h6>Source  for all the information is wikipidia.I will add the link below.</h6>
+            <a href = "https://en.wikipedia.org/wiki/Oggy_and_the_Cockroaches" target="_blank" title="this is the wikipidia page for oggy">wikipedia page.</a>
+        </div>    
+        </dd>
+        <dt><ins>About the production:</ins></dt>
+        <dd style="background-color: blanchedalmond; color: blue"> September 2020, a reboot series was announced, entitled Oggy and the Cockroaches: Next Generation, in which Oggy takes care of Piya, a young elephant from India.[3][4] It was released worldwide on Netflix on 28 July 2022. Although it differs noticeably from the original in terms of its visuals and tone, Gulli labels it as Oggy's eighth season</dd>
+
+    </dl>
+    <h3 style ="color: brown ;">Let's see when we can watch the show on television(CN):</h3>
+    <!--for this we will need to make a table-->
+    <table bgcolor = "black" width = "700">
+        <tr bgcolor = "Yellow"><!--tr means table row..and td means tabLe data-->
+            <th width = 100>Monday</th><!--th means table hader-->
+            <th width = 100>Tuesday</th>
+            <th width = 100>Wednesday</th>
+            <th width = 100 >Thursday</th>
+            <th width = 100>Friday</th>
+            <th width = 100>Saturday</th>
+            <th width = 100>Sunday</th>
+        </tr>
+        <tr bgcolor = "lightblue" align ="center">
+            <td>(4:30 - 5:30)pm</td>
+            <td>(4:30 - 5:30)pm</td>
+            <td>(4:30 - 5:30)pm</td>
+            <td>(4:30 - 5:30)pm</td>
+            <td>(4:30 - 5:30)pm</td>
+            <td>(4:30 - 5:30)pm</td>
+            <td>Not telecasted</td>
+            
+        </tr>
+    </table>
+    <h3>If you like the portal, hit the like button to visit the portal maker's Facebook profile.</h3>
+    <a href = "https://www.facebook.com/AvishekAnanda?mibextid=ZbWKwL" target="_blank" title="click here to visit the profile">
+     <button style="background-color: brown;color:aqua;border-radius: 7px;border-style: dashed;"><b>Like here to visit</b></button>
+    </a>
+    <!--here we will be adding the form tags..that is mostly used to get info from the user.But it needs a server set up..like adding php to the code help to store the data from the user.Also this is sometimes use for hacking -->
+
+    <h3>Now give me some info about yourself.</h3><h6><mark style="border-radius: 9px;">(like your name,email address,bla bla ba...)</mark></h6>
+    <form>
+        <div>
+        <level for = "fname">Enter your frist name:</level>
+        <input type="text" id="fname"name = "1st name" placeholder=" frist name please.">
+    
+        <level>Enter your last name: </level>
+        <input type="text" id="fname"name = "1st name" placeholder=" last name please.">
+        </div>
+        <br>
+        
+        <div>
+        <level for = "fname">Enter your addree:</level>
+        <input type="text" id="fname"name = "1st name" placeholder=" address please.">
+    
+        <level>Enter your mobile num: </level>
+        <input type="tel" id="fname"name = "1st name" placeholder=" mobile num please.">
+
+        </div>
+        <br>
+        <div>
+            <level >Enter your email addree:</level>
+            <input type="email" placeholder="abc@gmail.com">
+            </div>
+            <br>
+            <div>
+                <leve>Enter the date when you are reading this:</leve>
+                <input type="date">
+
+            </div>
+            <br>
+            <div>
+                <label for="ratings">Give me a rating.</label>
+                <select id="ratings" name="ratings">
+                    <option>Okayish</option>
+                    <option>Worst</option>
+                    <option>Don't want to make any comment</option>
+                </select>
+            </div>
+            
+            <br>
+            <div>
+                <input type="reset">
+            
+            </div>
+            <br>
+            <div>
+                <input type ="submit">
+
+    </form>
+
+    <h4>For your further info we can just bing it.And you can bing link below↓.</h4>
+    <!--and for that we are going to use the ifream .it is mostly used to embed content from anothefr source into an HTML document
+    example:used for adds,used in many hacking techniques-->
+    <iframe src ="https://www.bing.com" width ="500" height = "300"></iframe>
+
+
+
+</body>
+
+
+
+</html>
